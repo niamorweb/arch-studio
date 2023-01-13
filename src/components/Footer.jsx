@@ -9,18 +9,18 @@ export default function Footer() {
       </div>
 
       <ul className="footer_links">
-        <NavLink to="/portfolio">
+        <NavLink to="/arch-studio/portfolio">
           <li>Portfolio</li>{" "}
         </NavLink>
-        <NavLink to="/about-us">
+        <NavLink to="/arch-studio/about-us">
           <li>About Us</li>{" "}
         </NavLink>
-        <NavLink to="/contact">
+        <NavLink to="/arch-studio/contact">
           <li>Contact</li>{" "}
         </NavLink>
       </ul>
 
-      <NavLink className="btn_link" to="/portfolio">
+      <NavLink className="btn_link" to="/arch-studio/portfolio">
         See Our Portfolio
         <img src="../../icons/icon-arrow-white.svg" alt="" />
       </NavLink>
