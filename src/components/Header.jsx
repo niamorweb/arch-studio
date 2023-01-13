@@ -11,7 +11,7 @@ export default function Header() {
         <nav>
           <div className="logo">
             <NavLink to="/arch-studio/">
-              <img src="../../logo.svg" alt="" />
+              <img src="../../arch-studio/logo.svg" alt="" />
             </NavLink>
           </div>
           <ul className="nav_big_screen">
