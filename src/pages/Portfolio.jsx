@@ -1,5 +1,4 @@
 import React from "react";
-import TestCarroussel from "../components/TestCarroussel";
 import DataPortfolio from "../data/DataPortfolio.json";
 
 export default function Portfolio() {
