@@ -22,7 +22,7 @@ export default function Footer() {
 
       <NavLink className="btn_link" to="/arch-studio/portfolio">
         See Our Portfolio
-        <img src="../../icons/icon-arrow-white.svg" alt="" />
+        <img src="../../arch-studio/icons/icon-arrow-white.svg" alt="" />
       </NavLink>
     </footer>
   );
