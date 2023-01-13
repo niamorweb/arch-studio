@@ -5,7 +5,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="logo">
-        <img src="../../logo-white.svg" alt="" />
+        <img src="../../arch-studio/logo-white.svg" alt="" />
       </div>
 
       <ul className="footer_links">
