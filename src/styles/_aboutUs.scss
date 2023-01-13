@@ -1,0 +1,211 @@
+.about_main_container {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+.about_intro {
+  position: relative;
+  .hero {
+    position: relative;
+
+    &::before {
+      content: "";
+      position: absolute;
+      z-index: 2;
+      width: 90%;
+      height: 40px;
+      background-color: var(--color-white);
+      bottom: 0;
+      border-bottom: 1px solid var(--color-light-gray);
+    }
+  }
+
+  img {
+    width: 100%;
+    cursor: pointer;
+  }
+  p {
+    color: var(--color-dark-gray);
+    font-weight: 400;
+    font-size: 1.7rem;
+  }
+
+  .box_text {
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}
+
+.about_description_team {
+  p {
+    color: var(--color-dark-gray);
+    font-weight: 400;
+  }
+}
+
+.about_description_heritage {
+  .box_text {
+    padding: 5rem 3rem 0 3rem;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+
+    &::before {
+      content: "";
+      position: absolute;
+      width: 100px;
+      height: 1px;
+      background-color: var(--color-light-gray);
+      top: 0;
+    }
+
+    p {
+      color: var(--color-dark-gray);
+      font-weight: 400;
+    }
+  }
+}
+
+.leaders {
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  .people_section {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+    .box_person {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      position: relative;
+
+      img {
+        width: 100%;
+      }
+    }
+    .info_person {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+
+    .info_links_person {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+    .social_links {
+      display: flex;
+      gap: 2rem;
+
+      img {
+        width: 30px;
+      }
+    }
+  }
+}
+
+@media (min-width: 600px) {
+  .people_section {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto;
+    max-width: 800px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about_intro {
+    padding: 3rem 10rem;
+    position: relative;
+
+    .large_title {
+      display: block !important;
+      top: 16rem;
+      right: 14rem;
+      z-index: 2;
+      font-size: 12rem;
+    }
+
+    .hero {
+      height: 600px;
+      width: 100%;
+      overflow: hidden;
+
+      img {
+        object-fit: cover;
+      }
+      &::before {
+        display: none;
+      }
+    }
+    .box_text {
+      position: absolute;
+      bottom: 3rem;
+      right: 10rem;
+      padding: 13rem 5rem 5rem 5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      background-color: var(--color-white);
+      width: 500px;
+    }
+  }
+}
+
+@media (min-width: 1000px) {
+  .about_intro {
+    padding: 3rem 10rem;
+    position: relative;
+
+    .large_title {
+      top: 18rem;
+      right: 16rem;
+    }
+  }
+  .leaders {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+
+    .img_person {
+      position: relative;
+
+      .social_links_desktop {
+        position: absolute;
+        display: none !important;
+        bottom: 0;
+        gap: 2rem;
+        height: 100%;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.435);
+
+        img {
+          width: 50px !important;
+          cursor: pointer;
+        }
+      }
+      &:hover {
+        .social_links_desktop {
+          position: absolute;
+          bottom: 0;
+          display: flex !important;
+        }
+      }
+    }
+  }
+
+  .about_description_heritage {
+    display: flex;
+    gap: 10rem;
+  }
+}

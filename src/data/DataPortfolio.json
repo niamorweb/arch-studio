@@ -1,0 +1,97 @@
+[
+  {
+    "title": "Seraph Station",
+    "description": "September 2019",
+    "imgMobile": "../../portfolio/mobile/image-seraph.jpg",
+    "imgTablet": "../../portfolio/tablet/image-seraph.jpg",
+    "imgDesktop": "../../portfolio/desktop/image-seraph.jpg"
+  },
+
+  {
+    "title": "Eebox Building",
+    "description": "August 2017",
+    "imgMobile": "../../portfolio/mobile/image-eebox.jpg",
+    "imgTablet": "../../portfolio/tablet/image-eebox.jpg",
+    "imgDesktop": "../../portfolio/desktop/image-eebox.jpg"
+  },
+
+  {
+    "title": "Federal II Tower",
+    "description": "March 2017",
+    "imgMobile": "../../portfolio/mobile/image-federal.jpg",
+    "imgTablet": "../../portfolio/tablet/image-federal.jpg",
+    "imgDesktop": "../../portfolio/desktop/image-federal.jpg"
+  },
+
+  {
+    "title": "Project Del Sol",
+    "description": "January 2016",
+    "imgMobile": "../../portfolio/mobile/image-del-sol.jpg",
+    "imgTablet": "../../portfolio/tablet/image-del-sol.jpg",
+    "imgDesktop": "../../portfolio/desktop/image-del-sol.jpg"
+  },
+
+  {
+    "title": "Le Prototype",
+    "description": "October 2015",
+    "imgMobile": "../../portfolio/mobile/image-prototype.jpg",
+    "imgTablet": "../../portfolio/tablet/image-prototype.jpg",
+    "imgDesktop": "../../portfolio/desktop/image-prototype.jpg"
+  },
+
+  {
+    "title": "228B Tower",
+    "description": "April 2015",
+    "imgMobile": "../../portfolio/mobile/image-228b.jpg",
+    "imgTablet": "../../portfolio/tablet/image-228b.jpg",
+    "imgDesktop": "../../portfolio/desktop/image-228b.jpg"
+  },
+
+  {
+    "title": "Grand Edelweiss Hotel",
+    "description": "December 2013",
+    "imgMobile": "../../portfolio/mobile/image-edelweiss.jpg",
+    "imgTablet": "../../portfolio/tablet/image-edelweiss.jpg",
+    "imgDesktop": "../../portfolio/desktop/image-edelweiss.jpg"
+  },
+
+  {
+    "title": "Netcry Tower",
+    "description": "August 2012",
+    "imgMobile": "../../portfolio/mobile/image-netcry.jpg",
+    "imgTablet": "../../portfolio/tablet/image-netcry.jpg",
+    "imgDesktop": "../../portfolio/desktop/image-netcry.jpg"
+  },
+
+  {
+    "title": "Hypers",
+    "description": "January 2012",
+    "imgMobile": "../../portfolio/mobile/image-hypers.jpg",
+    "imgTablet": "../../portfolio/tablet/image-hypers.jpg",
+    "imgDesktop": "../../portfolio/desktop/image-hypers.jpg"
+  },
+
+  {
+    "title": "SXIV Tower",
+    "description": "March 2011",
+    "imgMobile": "../../portfolio/mobile/image-sxiv.jpg",
+    "imgTablet": "../../portfolio/tablet/image-sxiv.jpg",
+    "imgDesktop": "../../portfolio/desktop/image-sxiv.jpg"
+  },
+
+  {
+    "title": "Trinity Bank Tower",
+    "description": "September 2010",
+    "imgMobile": "../../portfolio/mobile/image-trinity.jpg",
+    "imgTablet": "../../portfolio/tablet/image-trinity.jpg",
+    "imgDesktop": "../../portfolio/desktop/image-trinity.jpg"
+  },
+
+  {
+    "title": " Project Paramour",
+    "description": "February 2008",
+    "imgMobile": "../../portfolio/mobile/image-paramour.jpg",
+    "imgTablet": "../../portfolio/tablet/image-paramour.jpg",
+    "imgDesktop": "../../portfolio/desktop/image-paramour.jpg"
+  }
+]
