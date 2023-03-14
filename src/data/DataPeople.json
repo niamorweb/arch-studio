@@ -1,25 +1,22 @@
 [
-    {
-        "name":"Jake Richards",
-        "job": "Chief Architect",
-        "img":"../../about/desktop/avatar-jake.jpg"
-    },
-    {
-        "name":"Thompson Smith",
-        "job": "Head of Finance",
-        "img":"../../about/desktop/avatar-thompson.jpg"
-    },
-    {
-        "name":"Jackson Rourke",
-        "job": "Lead Designer",
-        "img":"../../about/desktop/avatar-jackson.jpg"
-    },
-    {
-        "name":"Maria Simpson",
-        "job": "Senior Architect",
-        "img":"../../about/desktop/avatar-maria.jpg"
-    }
+  {
+    "name": "Jake Richards",
+    "job": "Chief Architect",
+    "img": "/arch-studio/about/desktop/avatar-jake.jpg"
+  },
+  {
+    "name": "Thompson Smith",
+    "job": "Head of Finance",
+    "img": "/arch-studio/about/desktop/avatar-thompson.jpg"
+  },
+  {
+    "name": "Jackson Rourke",
+    "job": "Lead Designer",
+    "img": "/arch-studio/about/desktop/avatar-jackson.jpg"
+  },
+  {
+    "name": "Maria Simpson",
+    "job": "Senior Architect",
+    "img": "/arch-studio/about/desktop/avatar-maria.jpg"
+  }
 ]
-
-
-
