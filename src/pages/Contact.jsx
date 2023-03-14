@@ -23,17 +23,17 @@ export default function Contact() {
         <div className="hero">
           <img
             className="mobile"
-            src="../../arch-studio/contact/mobile/image-hero.jpg"
+            src="../../contact/mobile/image-hero.jpg"
             alt=""
           />
           <img
             className="tablet"
-            src="../../arch-studio/contact/tablet/image-hero.jpg"
+            src="../../contact/tablet/image-hero.jpg"
             alt=""
           />
           <img
             className="desktop"
-            src="../../arch-studio/contact/desktop/image-hero.jpg"
+            src="../../contact/desktop/image-hero.jpg"
             alt=""
           />
         </div>
@@ -66,7 +66,7 @@ export default function Contact() {
               <p>123-456-3451</p>
             </div>
             <a href="#">
-              View on map <img src="../../arch-studio/icons/icon-arrow.svg" alt="" />
+              View on map <img src="../../icons/icon-arrow.svg" alt="" />
             </a>
           </div>
         </div>
@@ -83,7 +83,7 @@ export default function Contact() {
               <p>832-123-4321</p>
             </div>
             <a href="#">
-              View on map <img src="../../arch-studio/icons/icon-arrow.svg" alt="" />
+              View on map <img src="../../icons/icon-arrow.svg" alt="" />
             </a>
           </div>
         </div>
@@ -125,7 +125,7 @@ export default function Contact() {
             {errors.exampleRequired && <span>This field is required</span>}
           </div>
           <button>
-            <img src="../../arch-studio/icons/icon-arrow-white.svg" alt="" />
+            <img src="../../icons/icon-arrow-white.svg" alt="" />
           </button>
         </div>
       </form>

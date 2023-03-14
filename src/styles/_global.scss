@@ -63,6 +63,7 @@ body {
   display: flex;
   gap: 20px;
   align-items: center;
+  transition: 0.3s;
 }
 
 .name_page {
@@ -90,9 +91,9 @@ body {
 }
 .large_title {
   position: absolute;
-  display: none;
   font-weight: 800;
   color: var(--color-very-light-gray);
+  text-shadow: 1px 2px 2px var(--color-dark-blue);
 }
 
 main {

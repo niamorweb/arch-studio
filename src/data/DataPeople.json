@@ -2,22 +2,22 @@
     {
         "name":"Jake Richards",
         "job": "Chief Architect",
-        "img":"../../arch-studio/about/desktop/avatar-jake.jpg"
+        "img":"../../about/desktop/avatar-jake.jpg"
     },
     {
         "name":"Thompson Smith",
         "job": "Head of Finance",
-        "img":"../../arch-studio/about/desktop/avatar-thompson.jpg"
+        "img":"../../about/desktop/avatar-thompson.jpg"
     },
     {
         "name":"Jackson Rourke",
         "job": "Lead Designer",
-        "img":"../../arch-studio/about/desktop/avatar-jackson.jpg"
+        "img":"../../about/desktop/avatar-jackson.jpg"
     },
     {
         "name":"Maria Simpson",
         "job": "Senior Architect",
-        "img":"../../arch-studio/about/desktop/avatar-maria.jpg"
+        "img":"../../about/desktop/avatar-maria.jpg"
     }
 ]
 

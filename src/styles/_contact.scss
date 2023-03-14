@@ -1,5 +1,12 @@
 .contact_intro {
   position: relative;
+
+  .large_title {
+    font-size: 4rem;
+    top: 10rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
   .hero {
     position: relative;
 
@@ -61,6 +68,12 @@
   }
 
   .office {
+    &.o1 {
+      margin-top: 3rem;
+    }
+    &.o2 {
+      margin-top: 3rem;
+    }
     .infos {
       display: grid;
       margin-top: 0.8rem;
@@ -82,6 +95,7 @@
   iframe {
     width: 100%;
     border: none;
+    height: 400px;
   }
 }
 
@@ -89,6 +103,7 @@ form {
   padding: 3rem;
   display: flex;
   flex-direction: column;
+  margin-bottom: 10rem;
 
   textarea {
     height: 200px !important;
@@ -111,8 +126,16 @@ form {
     }
   }
 
+  .all_inputs {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
   button {
     background: black;
+    cursor: pointer;
     width: 60px;
     height: 60px;
     align-self: flex-end;
@@ -125,14 +148,16 @@ form {
 
     .large_title {
       display: block;
-      top:9rem;
+      top: 10rem;
       right: 23rem;
       z-index: 2;
       font-size: 12rem;
+      left: unset;
+      transform: unset;
     }
 
     .hero {
-      height: 500px;
+      height: 600px;
       width: 100%;
       overflow: hidden;
 
@@ -178,9 +203,9 @@ form {
   .contact_intro {
     position: relative;
     .large_title {
-      top: 100px;
-      left: 300px;
+      top: 19rem;
       z-index: 2;
+      right: 16rem;
     }
   }
   .contact_details {
@@ -209,12 +234,5 @@ form {
 
   form {
     flex-direction: row;
-
-    .all_inputs {
-      position: relative;
-      display: flex;
-      flex-direction: column;
-      width: 100%;
-    }
   }
 }

@@ -5,6 +5,13 @@
 }
 .about_intro {
   position: relative;
+
+  .large_title {
+    font-size: 4rem;
+    top: 10rem;
+    left: 50%;
+    transform: translateX(-50%);
+  }
   .hero {
     position: relative;
 
@@ -51,7 +58,8 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    gap: 1.3rem;
+    gap: 3rem;
+    margin-bottom: 5rem;
 
     &::before {
       content: "";
@@ -74,11 +82,12 @@
   display: flex;
   flex-direction: column;
   gap: 3rem;
+  margin-bottom: 10rem;
 
   .people_section {
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 8rem;
 
     .box_person {
       display: flex;
@@ -102,7 +111,8 @@
       gap: 1rem;
     }
     .social_links {
-      display: flex;
+      margin-top: 1rem;
+      display: flex !important;
       gap: 2rem;
 
       img {
@@ -132,6 +142,8 @@
       right: 14rem;
       z-index: 2;
       font-size: 12rem;
+      left: unset;
+      transform: unset;
     }
 
     .hero {
@@ -171,6 +183,8 @@
     }
   }
   .leaders {
+    margin-top: 5rem;
+    margin-bottom: 10rem;
     display: flex;
     flex-direction: row;
     gap: 5rem;
@@ -180,14 +194,16 @@
 
       .social_links_desktop {
         position: absolute;
-        display: none !important;
+        opacity: 0;
         bottom: 0;
         gap: 2rem;
         height: 100%;
+        display: flex !important;
         width: 100%;
         justify-content: center;
         align-items: center;
         background-color: rgba(0, 0, 0, 0.435);
+        transition: 0.3s;
 
         img {
           width: 50px !important;
@@ -196,9 +212,7 @@
       }
       &:hover {
         .social_links_desktop {
-          position: absolute;
-          bottom: 0;
-          display: flex !important;
+          opacity: 1;
         }
       }
     }

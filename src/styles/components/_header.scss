@@ -1,11 +1,11 @@
 header {
   position: relative;
 
-  .nav_big_screen{
+  .nav_big_screen {
     display: none;
   }
 
-  .btns-mobile{
+  .btns-mobile {
     cursor: pointer;
   }
 
@@ -23,10 +23,10 @@ header {
     position: absolute;
     z-index: 4;
     bottom: 0;
-    left: 3rem;
+    left: 0;
     right: 0;
     transform: translateY(100%);
-    background-color: var(--color-very-light-gray);
+    background-color: var(--color-white);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,7 +60,26 @@ header {
       gap: 10rem;
       align-items: center;
 
-      
+      li {
+        position: relative;
+        text-transform: uppercase;
+
+        &::before {
+          content: "";
+          position: absolute;
+          width: 0;
+          left: 0;
+          bottom: -5px;
+          height: 3px;
+          background-color: var(--color-dark-blue);
+          transition: 0.3s;
+        }
+
+        &:hover::before {
+          width: 100%;
+        }
+      }
+
       .btns-mobile {
         display: none !important;
       }

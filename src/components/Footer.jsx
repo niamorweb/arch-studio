@@ -5,24 +5,24 @@ export default function Footer() {
   return (
     <footer>
       <div className="logo">
-        <img src="../../arch-studio/logo-white.svg" alt="" />
+        <img src="../../logo-white.svg" alt="" />
       </div>
 
       <ul className="footer_links">
-        <NavLink to="/arch-studio/portfolio">
+        <NavLink to="/portfolio">
           <li>Portfolio</li>{" "}
         </NavLink>
-        <NavLink to="/arch-studio/about-us">
+        <NavLink to="/about-us">
           <li>About Us</li>{" "}
         </NavLink>
-        <NavLink to="/arch-studio/contact">
+        <NavLink to="/contact">
           <li>Contact</li>{" "}
         </NavLink>
       </ul>
 
-      <NavLink className="btn_link" to="/arch-studio/portfolio">
+      <NavLink className="btn_link" to="/portfolio">
         See Our Portfolio
-        <img src="../../arch-studio/icons/icon-arrow-white.svg" alt="" />
+        <img src="../../icons/icon-arrow-white.svg" alt="" />
       </NavLink>
     </footer>
   );

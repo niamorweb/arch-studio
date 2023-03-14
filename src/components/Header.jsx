@@ -1,8 +1,11 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 
 export default function Header() {
   const [showNavMobile, setShowNavMobile] = useState(false);
+  useEffect(() => {
+    setShowNavMobile(false);
+  }, []);
   return (
     <>
       {showNavMobile ? <div className="overlay_fixed"></div> : null}
@@ -10,20 +13,20 @@ export default function Header() {
       <header>
         <nav>
           <div className="logo">
-            <NavLink to="/arch-studio/">
-              <img src="../../arch-studio/logo.svg" alt="" />
+            <NavLink to="/">
+              <img src="../../logo.svg" alt="" />
             </NavLink>
           </div>
           <ul className="nav_big_screen">
-            <NavLink to="/arch-studio/portfolio">
+            <NavLink to="/portfolio">
               {" "}
               <li>Portfolio</li>{" "}
             </NavLink>
-            <NavLink to="/arch-studio/about-us">
+            <NavLink to="/about-us">
               {" "}
               <li>About Us</li>{" "}
             </NavLink>
-            <NavLink to="/arch-studio/contact">
+            <NavLink to="/contact">
               {" "}
               <li>Contact</li>{" "}
             </NavLink>
@@ -48,14 +51,14 @@ export default function Header() {
 
           {showNavMobile ? (
             <ul className="nav_mobile">
-              <NavLink to="/arch-studio/portfolio">
-                <li>Portfolio</li>{" "}
+              <NavLink to="/portfolio">
+                <li onClick={() => setShowNavMobile(false)}>Portfolio</li>{" "}
               </NavLink>
-              <NavLink to="/arch-studio/about-us">
-                <li>About Us</li>{" "}
+              <NavLink to="/about-us">
+                <li onClick={() => setShowNavMobile(false)}>About Us</li>{" "}
               </NavLink>
-              <NavLink to="/arch-studio/contact">
-                <li>Contact</li>{" "}
+              <NavLink to="/contact">
+                <li onClick={() => setShowNavMobile(false)}>Contact</li>{" "}
               </NavLink>
             </ul>
           ) : null}
