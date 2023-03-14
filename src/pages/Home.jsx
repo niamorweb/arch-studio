@@ -20,36 +20,36 @@ export default function Home() {
       projectName: "Project Paramour",
       projectDesc:
         "Project made for an art museum near Southwest London. Project Paramour is a statement of bold, modern architecture.",
-      imgMobile: "../../home/mobile/image-hero-paramour.jpg",
-      imgTablet: "../../home/tablet/image-hero-paramour.jpg",
-      imgDesktop: "../../home/desktop/image-hero-paramour.jpg",
+      imgMobile: "/arch-studio/home/mobile/image-hero-paramour.jpg",
+      imgTablet: "/arch-studio/home/tablet/image-hero-paramour.jpg",
+      imgDesktop: "/arch-studio/home/desktop/image-hero-paramour.jpg",
     },
     {
       id: "s2",
       projectName: "Seraph Station",
       projectDesc:
         "The Seraph Station project challenged us to design a unique station that would transport people through time. The result is a fresh and futuristic model inspired by space stations.",
-      imgMobile: "../../home/mobile/image-hero-seraph.jpg",
-      imgTablet: "../../home/tablet/image-hero-seraph.jpg",
-      imgDesktop: "../../home/desktop/image-hero-seraph.jpg",
+      imgMobile: "/arch-studio/home/mobile/image-hero-seraph.jpg",
+      imgTablet: "/arch-studio/home/tablet/image-hero-seraph.jpg",
+      imgDesktop: "/arch-studio/home/desktop/image-hero-seraph.jpg",
     },
     {
       id: "s3",
       projectName: "Federal II Tower",
       projectDesc:
         "A sequel theme project for a tower originally built in the 1800s. We achieved this with a striking look of brutal minimalism with modern touches.",
-      imgMobile: "../../home/mobile/image-hero-federal.jpg",
-      imgTablet: "../../home/tablet/image-hero-federal.jpg",
-      imgDesktop: "../../home/desktop/image-hero-federal.jpg",
+      imgMobile: "/arch-studio/home/mobile/image-hero-federal.jpg",
+      imgTablet: "/arch-studio/home/tablet/image-hero-federal.jpg",
+      imgDesktop: "/arch-studio/home/desktop/image-hero-federal.jpg",
     },
     {
       id: "s4",
       projectName: "Trinity Bank Tower",
       projectDesc:
         "Trinity Bank challenged us to make a concept for a 84 story building located in the middle of a city with a high earthquake frequency. For this project we used curves to blend design and stability to meet our objectives.",
-      imgMobile: "../../home/mobile/image-hero-trinity.jpg",
-      imgTablet: "../../home/tablet/image-hero-trinity.jpg",
-      imgDesktop: "../../home/desktop/image-hero-trinity.jpg",
+      imgMobile: "/arch-studio/home/mobile/image-hero-trinity.jpg",
+      imgTablet: "/arch-studio/home/tablet/image-hero-trinity.jpg",
+      imgDesktop: "/arch-studio/home/desktop/image-hero-trinity.jpg",
     },
   ];
 
@@ -81,7 +81,10 @@ export default function Home() {
                       <NavLink className="btn_link" to={"/portfolio"}>
                         {" "}
                         See Our Portfolio
-                        <img src="../../icons/icon-arrow-white.svg" alt="" />
+                        <img
+                          src="/arch-studio/icons/icon-arrow-white.svg"
+                          alt=""
+                        />
                       </NavLink>
                     </div>
                   </div>
@@ -118,7 +121,7 @@ export default function Home() {
           </div>
           <img
             className="desktop"
-            src="../../home/desktop/image-welcome.jpg"
+            src="/arch-studio/home/desktop/image-welcome.jpg"
             alt=""
           />
         </section>
@@ -126,17 +129,17 @@ export default function Home() {
         <section className="home_smallteam">
           <img
             className="img_content mobile"
-            src="../../home/mobile/image-small-team.jpg"
+            src="/arch-studio/home/mobile/image-small-team.jpg"
             alt=""
           />
           <img
             className="img_content tablet"
-            src="../../home/tablet/image-small-team.jpg"
+            src="/arch-studio/home/tablet/image-small-team.jpg"
             alt=""
           />
           <img
             className="img_content desktop"
-            src="../../home/desktop/image-small-team.jpg"
+            src="/arch-studio/home/desktop/image-small-team.jpg"
             alt=""
           />
           <div className="box_text">
@@ -146,7 +149,7 @@ export default function Home() {
             </h1>
             <NavLink className="btn_link" to="/about-us">
               About Us
-              <img src="../../icons/icon-arrow-white.svg" alt="" />
+              <img src="/arch-studio/icons/icon-arrow-white.svg" alt="" />
             </NavLink>
           </div>
         </section>
@@ -156,7 +159,7 @@ export default function Home() {
             <h1>Featured</h1>
             <NavLink className="btn_link btn_big_screen" to="/portfolio">
               See All
-              <img src="../../icons/icon-arrow-white.svg" alt="" />
+              <img src="/arch-studio/icons/icon-arrow-white.svg" alt="" />
             </NavLink>
           </div>
           <div className="container_features">
@@ -192,7 +195,7 @@ export default function Home() {
             })}
             <NavLink className="btn_link mobile" to="/portfolio">
               See All
-              <img src="../../icons/icon-arrow-white.svg" alt="" />
+              <img src="/arch-studio/icons/icon-arrow-white.svg" alt="" />
             </NavLink>
           </div>
         </section>
