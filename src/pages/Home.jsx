@@ -78,7 +78,7 @@ export default function Home() {
                     <div className="content_intro">
                       <h1>{x.projectName}</h1>
                       <p>{x.projectDesc}</p>
-                      <NavLink className="btn_link" to={"/portfolio"}>
+                      <NavLink className="btn_link" to="/arch-studio/portfolio">
                         {" "}
                         See Our Portfolio
                         <img
@@ -147,7 +147,7 @@ export default function Home() {
               Small team, <br />
               big ideas
             </h1>
-            <NavLink className="btn_link" to="/about-us">
+            <NavLink className="btn_link" to="/arch-studio/about-us">
               About Us
               <img src="/arch-studio/icons/icon-arrow-white.svg" alt="" />
             </NavLink>
@@ -157,7 +157,10 @@ export default function Home() {
         <section className="home_featured">
           <div className="header_feature">
             <h1>Featured</h1>
-            <NavLink className="btn_link btn_big_screen" to="/portfolio">
+            <NavLink
+              className="btn_link btn_big_screen"
+              to="/arch-studio/portfolio"
+            >
               See All
               <img src="/arch-studio/icons/icon-arrow-white.svg" alt="" />
             </NavLink>
@@ -193,7 +196,7 @@ export default function Home() {
                   </div>
                 );
             })}
-            <NavLink className="btn_link mobile" to="/portfolio">
+            <NavLink className="btn_link mobile" to="/arch-studio/portfolio">
               See All
               <img src="/arch-studio/icons/icon-arrow-white.svg" alt="" />
             </NavLink>

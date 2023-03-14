@@ -13,20 +13,20 @@ export default function Header() {
       <header>
         <nav>
           <div className="logo">
-            <NavLink to="/">
-              <img src="../../logo.svg" alt="" />
+            <NavLink to="/arch-studio/">
+              <img src="/arch-studio/logo.svg" alt="" />
             </NavLink>
           </div>
           <ul className="nav_big_screen">
-            <NavLink to="/portfolio">
+            <NavLink to="/arch-studio/portfolio">
               {" "}
               <li>Portfolio</li>{" "}
             </NavLink>
-            <NavLink to="/about-us">
+            <NavLink to="/arch-studio/about-us">
               {" "}
               <li>About Us</li>{" "}
             </NavLink>
-            <NavLink to="/contact">
+            <NavLink to="/arch-studio/contact">
               {" "}
               <li>Contact</li>{" "}
             </NavLink>
@@ -36,14 +36,14 @@ export default function Header() {
               <img
                 onClick={() => setShowNavMobile(false)}
                 id="btnClose"
-                src="../../icons/icon-close.svg"
+                src="/arch-studio/icons/icon-close.svg"
                 alt=""
               />
             ) : (
               <img
                 onClick={() => setShowNavMobile(true)}
                 id="btnHamburger"
-                src="../../icons/icon-hamburger.svg"
+                src="/arch-studio/icons/icon-hamburger.svg"
                 alt=""
               />
             )}
@@ -51,13 +51,13 @@ export default function Header() {
 
           {showNavMobile ? (
             <ul className="nav_mobile">
-              <NavLink to="/portfolio">
+              <NavLink to="/arch-studio/portfolio">
                 <li onClick={() => setShowNavMobile(false)}>Portfolio</li>{" "}
               </NavLink>
-              <NavLink to="/about-us">
+              <NavLink to="/arch-studio/about-us">
                 <li onClick={() => setShowNavMobile(false)}>About Us</li>{" "}
               </NavLink>
-              <NavLink to="/contact">
+              <NavLink to="/arch-studio/contact">
                 <li onClick={() => setShowNavMobile(false)}>Contact</li>{" "}
               </NavLink>
             </ul>
