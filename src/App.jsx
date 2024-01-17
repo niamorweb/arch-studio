@@ -15,10 +15,10 @@ function App() {
       <div className="App">
         <Header />
         <Routes>
-          <Route path="/arch-studio/" element={<Home />} />
-          <Route path="/arch-studio/portfolio" element={<Portfolio />} />
-          <Route path="/arch-studio/about-us" element={<AboutUs />} />
-          <Route path="/arch-studio/contact" element={<Contact />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/about-us" element={<AboutUs />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>

@@ -11,19 +11,11 @@ export default function AboutUs() {
       <main className="about_main_container">
         <div className="about_intro">
           <div className="hero">
-            <img
-              className="mobile"
-              src="/arch-studio/about/mobile/image-hero.jpg"
-              alt=""
-            />
-            <img
-              className="tablet"
-              src="/arch-studio/about/tablet/image-hero.jpg"
-              alt=""
-            />
+            <img className="mobile" src="/about/mobile/image-hero.jpg" alt="" />
+            <img className="tablet" src="/about/tablet/image-hero.jpg" alt="" />
             <img
               className="desktop"
-              src="/arch-studio/about/desktop/image-hero.jpg"
+              src="/about/desktop/image-hero.jpg"
               alt=""
             />
           </div>
@@ -66,7 +58,7 @@ export default function AboutUs() {
           </div>
           <img
             className="desktop"
-            src="/arch-studio/about/desktop/image-heritage.jpg"
+            src="/about/desktop/image-heritage.jpg"
             alt=""
           />
         </section>
@@ -82,14 +74,8 @@ export default function AboutUs() {
                   <div className="img_person">
                     <img src={x.img} alt="" />
                     <div className="social_links_desktop desktop">
-                      <img
-                        src="/arch-studio/icons/icon-linkedin-white.svg"
-                        alt=""
-                      />
-                      <img
-                        src="/arch-studio/icons/icon-twitter-white.svg"
-                        alt=""
-                      />
+                      <img src="/icons/icon-linkedin-white.svg" alt="" />
+                      <img src="/icons/icon-twitter-white.svg" alt="" />
                     </div>
                   </div>
                   <div className="info_links_person">
@@ -98,8 +84,8 @@ export default function AboutUs() {
                       <p>{x.job}</p>
                     </div>
                     <div className="social_links  mobile tablet">
-                      <img src="/arch-studio/icons/icon-linkedin.svg" alt="" />
-                      <img src="/arch-studio/icons/icon-twitter.svg" alt="" />
+                      <img src="/icons/icon-linkedin.svg" alt="" />
+                      <img src="/icons/icon-twitter.svg" alt="" />
                     </div>
                   </div>
                 </div>
